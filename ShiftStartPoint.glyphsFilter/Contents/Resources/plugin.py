@@ -45,7 +45,7 @@ class ShiftStartPoint(FilterWithoutDialog):
 						p.removeNode_(newNode)
 						p.closed = True
 						break
-		layer.cleanUpPaths()
+		# layer.cleanUpPaths()
 
 	@objc.python_method
 	def __file__(self):
